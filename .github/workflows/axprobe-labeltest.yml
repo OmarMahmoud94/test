@@ -1,0 +1,9 @@
+name: axprobe-labeltest
+on:
+  workflow_dispatch:
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: marker
+        run: echo "AXPROBE_MARKER_axprobe-b8811b"
